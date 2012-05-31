@@ -1,11 +1,25 @@
 -- script was opened by click in toolbar
 on run
-   set st2 to POSIX path of (path to application "Sublime Text 2")
-   set subl to st2 & "Contents/SharedSupport/bin/subl"
-   
-   tell application "Finder"
-      set currentPath to (POSIX path of (target of front window as string))
-      tell current application to do shell script "\"" & subl & "\"" & " " & "'" & currentPath & "'"
-   end tell
-   
+	tell application "Finder"
+		if selection is {} then
+			set finderSelection to folder of the front window as string
+		else
+			set finderSelection to selection as alias list
+		end if
+	end tell
+	
+	st2(finderSelection)
 end run
+
+-- script was drag-and-dropped onto
+on open (theList)
+	st2(theList)
+end open
+
+-- open in Sublime
+on st2(listOfAliases)
+	tell application "Sublime Text 2"
+		open listOfAliases
+		activate
+	end tell
+end st2
