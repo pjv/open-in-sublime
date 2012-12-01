@@ -17,8 +17,11 @@ With Path Finder installed, you can run the raw script from the repo here and it
 
 Next you need to open that script in AppleScript Editor and Export as an application.
 
-Name the app "open folder in sublime" if you want it to always load the finder window directory
-Name it anything else if you want it to open the finder selection
+Name the app "open folder in sublime" if you want it to always load the finder window directory.
+
+Name it anything else if you want it to open the finder selection.
+
+If you want it to look cool, do a cmd-i on Sublime Text 2, click on the icon in the upper left and copy, then cmd-i on the open in sublime app you just made, click its icon and paste. sweet.
 
 Version 2.0 of Open In Sublime has two new features:
 
