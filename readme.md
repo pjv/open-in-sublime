@@ -6,6 +6,24 @@ If you want to turn this raw script into the equivalent of the application that 
 
 If you want it to look cool, cmd-i on the saved applet and cmd-i on Sublime Text 2 and copy the ST2 icon from ST2 to the applet.
 
+Version 2.1 fixes an issue where the script was popping up a dialog asking where Path Finder was located if it was not installed on the machine where the script was run. 
+
+This version does a little two-step in order to work on systems that do not have Path Finder installed
+without popping up a dialog asking where it is. The idea here is to compile it with the needed terms
+from Path Finder's dictionary but save that compiled script such that it can then be exported as an
+application that no longer needs to have access to Path Finder in order to run.
+
+Complicated, I know.
+
+If you don't have Path Finder, you should just download the pre-compiled app from https://github.com/pjv/open-in-sublime/downloads
+
+With Path Finder installed, you can run the script and it will create a new script in your home directory called "Open Folder in Sublime.scpt"
+
+Next you need to open that script in AppleScript Editor and Export as an application.
+
+Name the app "open folder in sublime" if you want it to always load the finder window directory
+Name it anything else if you want it to open the finder selection
+
 Version 2.0 of Open In Sublime has two new features:
 
 1. It works with Path Finder as well as Finder
