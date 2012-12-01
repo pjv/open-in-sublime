@@ -2,10 +2,6 @@ The best description (with pictures, even) of Open In Sublime is in the [wiki](h
 
 The following probably barely makes sense :-O
 
-If you want to turn this raw script into the equivalent of the application that is available for download from this repo's wiki, open it in applescript and then save as an application.
-
-If you want it to look cool, cmd-i on the saved applet and cmd-i on Sublime Text 2 and copy the ST2 icon from ST2 to the applet.
-
 Version 2.1 fixes an issue where the script was popping up a dialog asking where Path Finder was located if it was not installed on the machine where the script was run. 
 
 This version does a little two-step in order to work on systems that do not have Path Finder installed
