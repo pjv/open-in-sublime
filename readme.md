@@ -13,7 +13,7 @@ Complicated, I know.
 
 If you don't have Path Finder, you should just download the pre-compiled app from https://github.com/pjv/open-in-sublime/downloads
 
-With Path Finder installed, you can run the script and it will create a new script in your home directory called "Open Folder in Sublime.scpt"
+With Path Finder installed, you can run the raw script from the repo here and it will create a NEW script in your home directory called "Open Folder in Sublime.scpt"
 
 Next you need to open that script in AppleScript Editor and Export as an application.
 
