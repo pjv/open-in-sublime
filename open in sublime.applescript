@@ -84,7 +84,7 @@ using terms from application "Path Finder"
 		
 		-- open in Sublime
 		on st2(listOfAliases)
-			tell application "Sublime Text 2"
+			tell application "Sublime Text"
 				open listOfAliases
 				activate
 			end tell
