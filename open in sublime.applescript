@@ -17,6 +17,12 @@ next you need to open that script in AppleScript Editor and Export as an applica
 name the app "open folder in sublime" if you want it to always load the finder window directory
 name it anything else if you want it to open the finder selection
 
+Copyright © 2013 pjv <pjv@pjv.me>
+This work is free. You can redistribute it and/or modify it under the
+terms of the Do What The Fuck You Want To Public License, Version 2,
+as published by Sam Hocevar http://www.wtfpl.net/. 
+See the COPYING file for more details.
+
 **)
 
 using terms from application "Path Finder"
