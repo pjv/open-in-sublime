@@ -47,7 +47,7 @@ using terms from application "Path Finder"
 				set pathFinder_running to (get name of processes) contains "Path Finder"
 			end tell
 			
-			if name of me as string is "open folder in sublime" then
+			if name of current application as string is "open folder in sublime" then
 				set openFiles to false
 			else
 				set openFiles to true
