@@ -28,3 +28,7 @@ Version 2.0 of Open In Sublime has two new features:
 1. It works with Path Finder as well as Finder
 
 2. By popular demand and the work of ProLoser, this verison of Open in Sublime lets it open the finder selection in Sublime Text 2. You can have either the original behavior or the open selection behavior depending on how you name the application that you create in AppleScript. If you name the app "open folder in sublime" then you will get the original behavior which is to always load the open finder (path finder) window in Sublime's sidebar regardless of whether there is a selection in the window or not. If you name it anything else, then you will get the new behavior which is to open the selection if there is one and the directory if there is not.
+
+##### Yosemite Tip
+If you are running Yosemite you can not just drag an app to your Finder Toolbar. In Yosemite you need to hold `command` and drag the app to the Finder Toolbar for it to "install". *Open-in-sublime* falls under this category. Reference from [Mac OS X Hints](http://hints.macworld.com/article.php?story=20131025093452688).
+
